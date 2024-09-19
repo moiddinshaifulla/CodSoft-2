@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: -52px;
+    margin-left: 60%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+    color: #00d9ff;
+}
+
+nav ul li a.active {
+    color: #ee00ff;
+}
+
+
+#firstleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+#firstleft .image img {
+    width: 25vw;
+    height: 50vh;
+    margin-top: 5%;
+}
+
+.header-text {
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+
+#about {
+    padding: 80px 0;
+    color: #ababab;
+}
+
+
+.skills-education-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 21px;
+    padding: 60px;
+    margin-top: 30px;
+}
+
+.skill-box {
+    flex: 1;
+    background-color: #262626;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill-box:hover {
+    transform: scale(1.05); 
+}
+
+.skill-box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.skill-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-box ul li {
+    margin: 10px 0;
+    color: #ababab;
+}
+
+.skill-box ul li span {
+    color: #00d9ff;
+}
+
+.tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+    gap: 50px;
+}
+
+.tab-links {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.tab-links:hover {
+    transform: scale(1.1);
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+.about-col-2 p {
+    margin-top: 20px;
+}
+
+#resume {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+#resume a {
+    text-decoration: none;
+    padding: 20px;
+    background: #ee00ff;
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 8px;
+    margin-top: -60px;
+}
+
+#project {
+    padding: 50px 0;
+}
+
+.pro-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.pro {
+    border-radius: 10px;
+    position: relative;
+    padding-inline: 25px;
+    overflow: hidden;
+    background: #3c3d51;
+    transition: transform 0.3s;
+}
+.layer a{
+text-decoration: none;
+background: #ee00ff;
+color: white;
+border-radius: 8px;
+padding: 5px;
+cursor: pointer;
+position: relative;
+top: 13px;
+left: -16px;
+
+}
+
+.pro img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.pro:hover {
+    transform: scale(1.05);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    background: #00d9ff;
+    color: #fff;
+    margin-left: -85px;
+    border: none;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+ .profile-photo{
+    margin-left: 35%;
+    width:350px;
+    height:auto;
+    border-radius: 8px;
+    
+}
+.sub-title{
+    text-align: center;
+    padding: 20px 5px;
+    color: #ff009d;
+}
